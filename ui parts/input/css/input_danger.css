@@ -4,31 +4,43 @@ input{
     margin-top: 8px;
 
 }
+.date_area{
+    background-color: white;
+    height: 2rem;
+    width: 16rem;
+}
+.input-area_wrapper{
+    margin-top: 0.5rem;
+    border: 1px solid #459DF5;
+    border-radius: 4px;
+    box-sizing: border-box;
+
+}
 .date_input_normal_state {
     background-color: white;
     border-color: aqua;
-    border-radius: 5px;
+    border-radius: 4px;
 }
 .date_input_normal_state:focus{
     outline: none;
 }
-.date_input_error_state {
+.date_input_error-state {
     background-color: white;
     border-color: red;
-    border-radius: 5px;
+    border-radius: 4px;
 }
-.date_input_error_state:focus{
+.date_input_error-state:focus{
     outline: none;
 }
-.div__date_time_input_block{
+.wrapper__date-time_input-block{
     position: relative;
 
 }
-.date_input_blocked_state {
+.date_input_blocked-state {
     position: absolute;
     background-color: #17bee3;
     border-color: #5243f7;
-    border-radius: 5px;
+    border-radius: 4px;
 
 }
 .lock_image {
@@ -37,11 +49,9 @@ input{
     left: 180px;
 
 }
-.date_input_blocked_state:focus{
+.date_input_blocked-state:focus{
     outline: none;
 }
 .date_time_input{
     border: none;
-
-
 }
