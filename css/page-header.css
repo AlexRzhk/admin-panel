@@ -1,0 +1,35 @@
+.page-header__button-wrapper{
+    height: 2rem;
+    width: fit-content;
+    line-height: 1rem;
+    font-family: Ubuntu;
+    font-weight: 400;
+    color: #000000;
+    font-style: normal;
+}
+
+.page-header__button:hover + .page-header__switcher-wrapper_off{
+    display: block;
+}
+
+.page-header__text{
+    font-size: 26px;
+}
+.page-header__switcher-wrapper{
+    position: relative;
+}
+
+.page-header__switcher{
+    position: absolute;
+    left: -3rem;
+}
+
+.page-header__switcher-wrapper_off{
+    display: none;
+}
+.page-header{
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    width: 100%;
+}
