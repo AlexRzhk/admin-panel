@@ -12,20 +12,13 @@
     box-sizing: border-box;
     border-radius: 0.5rem;
     background: #FFFFFF;
+    display: flex;
+    flex-direction: column;
 
 }
 .dropdown-status-multiple__area-wrapper{
     display: flex;
     flex-direction: column;
-}
-.dropdown-status-multiple__button_active{
-    padding: 0 0 0 0;
-    display: flex;
-    align-items: center;
-    border: none;
-    background: #FFFFFF;
-    width: 10rem;
-    height: 2rem;
 }
 .dropdown-status-multiple__element{
     padding: 0 0 0 0;
@@ -33,11 +26,10 @@
     align-items: center;
     border: none;
     background: #FFFFFF;
-    width: 10rem;
+    width: inherit;
     height: 2rem;
 }
 .dropdown-status-multiple__text{
-
     padding-left: 1.5rem;
     height: 1rem;
     margin: 0;
@@ -45,7 +37,7 @@
     top:0;
 }
 .dropdown-status-multiple__checkbox-wrapper{
-    margin: 0 0 0 0.5rem;
+    margin: 0 0 0 1rem;
 }
 
 .dropdown__label{
@@ -67,11 +59,10 @@
     box-sizing: border-box;
     border-radius: 0.5rem;
     background-color: #FFFFFF;
-}
-.dropdown-status-single__area-wrapper{
     display: flex;
     flex-direction: column;
 }
+
 
 .dropdown-status-single__block{
     border: none;
@@ -98,7 +89,7 @@
     display: none;
 }
 
-.dropdown-search{
+.dropdown-page-input{
     padding: 1rem;
     width: 10rem;
     height: 5.5rem;
@@ -108,16 +99,19 @@
 }
 
 .input-area_dropdown{
-    width: 7.25rem;
+    width: 100%;
     height: 1rem;
     border: none;
     box-sizing: border-box;
+    margin: 0;
+    padding: 0.5rem 0.25rem 0.5rem 0.5rem;
 }
 
-.input-area-wrapper_dropdown{
+.input_dropdown .input-area-wrapper{
     align-items: center;
     justify-content: center;
-    width: 8rem;
+    width: 100%;
+    display: flex;
 }
 
 .dropdown-delete{
@@ -129,6 +123,14 @@
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
+}
+
+.dropdown-delete .button{
+    margin-top:0.5rem;
+}
+
+.dropdown-theme .button{
+    margin-top:0.5rem;
 }
 
 
@@ -144,7 +146,7 @@
 }
 
 .dropdown__label_small {
-    width: 8rem;
+    width: 100%;
     height: 1rem;
 }
 
@@ -157,4 +159,9 @@
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
+}
+
+.input_dropdown{
+    width: 100%;
+
 }

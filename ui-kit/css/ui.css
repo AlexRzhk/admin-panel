@@ -66,8 +66,102 @@ body{
     line-height: 1rem;
     font-family: Ubuntu;
     font-weight: 400;
+    font-style: normal;
+}
+
+.button_size_medium {
+    height: 2rem;
+    width: fit-content;
+    padding: 0 1rem 0 1rem;
+}
+
+.button_size_medium .icon{
+    margin-right: 0.5rem;
+}
+
+.button_size_medium.button_icon-only{
+    padding: 0 0.5rem 0 0.5rem;
+}
+
+
+
+.button_size_small {
+    height: 1.5rem;
+    width: fit-content;
+    padding: 0 0.5rem 0 0.5rem;
+}
+
+.button_size_small .icon{
+    margin-right: 0.25rem;
+}
+
+.button_size_small.button_icon-only{
+    padding: 0 0.25rem 0 0.25rem;
+}
+
+.button_icon-only .icon{
+    margin: 0;
+}
+
+.button_color_blue{
+    background-color: #459DF5;
+}
+.button_color_blue .button__icon{
+    fill: #FFFFFF;
+    stroke: #FFFFFF;
+}
+
+.button_color_blue .button__text{
+    color: #FFFFFF;
+}
+
+.button_color_reverse-blue{
+    background-color: transparent;
+}
+.button_color_reverse-blue .button__icon{
+    fill: #459DF5;
+    stroke: #459DF5;
+}
+
+.button_color_reverse-blue .button__text{
+    color: #459DF5;
+}
+
+.button_color_reverse-light-blue{
+    background-color: transparent;
+}
+.button_color_reverse-light-blue .button__icon{
+    fill: #BAD8F5;
+    stroke: #BAD8F5;
+}
+
+.button_color_reverse-light-blue .button__text{
+    color: #BAD8F5;
+}
+
+.button_color_black{
+    background-color: transparent;
+}
+.button_color_black .button__icon{
+    fill: #000000;
+    stroke: #000000;
+}
+
+.button_color_black .button__text{
+    color: #000000;
+}
+
+.button__text{
+    line-height: 1rem;
+    font-family: Ubuntu;
+    font-weight: 400;
     color: #000000;
     font-style: normal;
+}
+
+.icon{
+    height: 1rem;
+    width: 1rem;
 }
 
 .button_medium{
@@ -175,6 +269,10 @@ body{
     margin-left: 0.25rem;
 }
 
+.button_full-width{
+    width: 100%;
+    justify-content: center;
+}
 
 
 

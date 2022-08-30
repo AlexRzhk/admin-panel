@@ -8,7 +8,7 @@
     font-style: normal;
 }
 
-.page-header__button:hover + .page-header__switcher-wrapper_off{
+.button_page-header:hover + .page-header__switcher-wrapper_off{
     display: block;
 }
 
