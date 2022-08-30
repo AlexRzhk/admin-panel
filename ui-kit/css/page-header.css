@@ -8,12 +8,14 @@
     font-style: normal;
 }
 
-.button_page-header:hover + .page-header__switcher-wrapper_off{
+.page-header__button:hover + .page-header__switcher-wrapper_off{
     display: block;
 }
 
 .page-header__text{
-    font-size: 26px;
+    font-size: 1.625rem;
+    font-family: Ubuntu;
+    font-weight: 400;
 }
 .page-header__switcher-wrapper{
     position: relative;
