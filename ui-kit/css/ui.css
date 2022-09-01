@@ -6,7 +6,7 @@
     justify-content: space-around;
 }
 
-.horizontal-block{
+.block_wide{
     display: flex;
     width: 40rem;
     justify-content: space-around;
@@ -35,8 +35,11 @@
     justify-content: space-around;
 }
 
-.buttons{
+.block{
     display: flex;
+}
+
+.block_vertical{
     flex-direction: column;
 }
 .buttons-section{
@@ -273,6 +276,3 @@ body{
     width: 100%;
     justify-content: center;
 }
-
-
-
