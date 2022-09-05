@@ -1,0 +1,57 @@
+.search {
+    display: flex;
+    align-items: center;
+    width: 16rem;
+    height: 2rem;
+    border: 1px solid #459DF5;
+    background-color: #FFFFFF;
+    border-radius: 0.25rem;
+    box-sizing: border-box;
+    line-height: 1rem;
+    font-family: Ubuntu;
+    font-weight: 400;
+    color: #000000;
+    font-style: normal;
+}
+.search__icon {
+    width: 1rem;
+    height: 1rem;
+    stroke: #459DF5;
+    margin: 0.5rem 0.5rem 0.5rem 0.5rem;
+}
+
+.search__input {
+    height: 1rem;
+    border: none;
+    outline: none;
+    padding: 0;
+    appearance: none;
+    line-height: 1rem;
+    font-family: Ubuntu;
+    font-weight: 400;
+    color: #000000;
+}
+
+.search_active .search__input {
+    margin-right: 0.5rem;
+    width: 11.75rem;
+}
+.search_inactive .search__input {
+    width: 13.75rem;
+}
+
+.search_inactive .button{
+    display: none;
+}
+
+.search_active .button{
+    display: flex;
+}
+
+.search__input::placeholder {
+    color: #BAD8F5;
+    line-height: 1rem;
+    font-family: Ubuntu;
+    font-weight: 400;
+}
+

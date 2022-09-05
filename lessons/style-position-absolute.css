@@ -1,0 +1,62 @@
+body {
+    margin-top: 4rem;
+}
+.gallery {
+    position: relative;
+    width: 1000px;
+    margin: 0 auto;
+}
+.gallery__info {
+    position: absolute;
+    width: 30%;
+    left: 0;
+    top: 0;
+    height: 400px;
+    background: lightgray;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    padding: 4rem 2rem;
+    box-sizing: border-box;
+}
+.gallery__main-slide {
+    position: absolute;
+    width: 70%;
+    left: 30%;
+    top: 0;
+    text-align: center;
+    height: 400px;
+    background: lightslategrey;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: white;
+}
+.gallery__slides {
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 400px;
+
+    padding: 3rem 1rem;
+    background: lightskyblue;
+}
+
+
+/* Блок "Слайдер" */
+.slides {
+    height: 8rem;
+    padding: 0;
+    margin: 0;
+}
+.slides__slide {
+    list-style: none;
+    float: left;
+    padding: 0;
+    margin: 18px;
+    width: 100px;
+    height: 100px;
+    background: lightgoldenrodyellow;
+}
+.text{
+    line-height: 400px;
+}
