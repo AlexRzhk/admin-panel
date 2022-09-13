@@ -1,0 +1,25 @@
+{
+  "name": "admin-panel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint-staged": "lint-staged",
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexRzhk/admin-panel.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlexRzhk/admin-panel/issues"
+  },
+  "homepage": "https://github.com/AlexRzhk/admin-panel#readme",
+  "dependencies": {
+    "husky": "^8.0.1",
+    "lint-staged": "^13.0.3",
+    "prettier": "^2.7.1"
+  }
+}
